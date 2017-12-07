@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head><style type="text/css">body {
+<head>
+<title>Fall Performance Final</title>
+<!-- http://www.creativebloq.com/css3/create-fluid-layouts-html5-and-css3-3142768 Fluid Webpage Tips         https://googlesystem.blogspot.com.au/2013/02/permalinks-for-google-drive-images.html#gsc.tab=0   Image hosting with google drive      Color Pallete http://www.color-hex.com/color-palette/47844-->
+
+<style>
+ body {
   
-  background: linear-gradient(#a81010, #ef5d5d);
+  background: linear-gradient(#7ba6b7, #c3d8e0);
 
 }
 
@@ -18,12 +23,13 @@
 .imagehawk{
   width: 20%;
   border: .5vw solid black ;
+  margin: 2vw;
 }
 
 .MissionStatement {
   font-weight: bold;
   font-size: 2vw;
-  background-color: #DAA520;
+  background-color: #d8f4ff;
   color: black;
   font-style: italic;
   padding-left: 1%;
@@ -31,6 +37,7 @@
   padding-bottom: 10px;
   padding-top: 10px;
   border: .5vw solid black;
+    margin: 1vw ;
 
 }
 
@@ -38,11 +45,57 @@
   font-style: normal;
   text-decoration: none;
   font-size: 1.9vw;
+
 }
 
-#missionheader{
+#deca{
   text-decoration: underline;
+  text-align: center;
 }
+
+
+#ps{
+  text-decoration: underline;
+  text-align: center;
+}
+
+#hdw {
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+#wd {
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+#cr {
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+#ec {
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+#es {
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+#gl {
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+
 
 #aimg {
   display: block;
@@ -55,7 +108,7 @@
   height: 100%;
   position: fixed;
     width: 10%;
-  background-color: rgb(25, 67, 135);  
+  background-color: rgb(76, 128, 147);  
   top: 0;
   padding: 1%;
   font-size: 2vw;
@@ -97,6 +150,10 @@ a:hover {
   
 }
 
+#awardsp {
+    text-align: left;
+}
+
 #title {
   text-shadow: 2px 2px black;
  
@@ -114,11 +171,14 @@ a:hover {
 
 
     
+   
+    
+    
+    
+    
+    
 </style>
 
-
-<title>Mill Creek Website</title>
-<!-- http://www.creativebloq.com/css3/create-fluid-layouts-html5-and-css3-3142768 Fluid Webpage Tips         https://googlesystem.blogspot.com.au/2013/02/permalinks-for-google-drive-images.html#gsc.tab=0   Image hosting with google drive      Color Pallete http://www.color-hex.com/color-palette/47844--> 
 </head>
   
   
@@ -129,39 +189,188 @@ a:hover {
 
   
     <div id="side2">
-      <p class="under"> Navigation: </p>
+      <p class="under"> Table Of Contents: </p>
       
-      <p>Calendar</p>
-      <p>Classes</p>
-      <a href="http://www.millcreekhs.com/index.php/school-directory/teachers">Staff</a>
+      
+      <a href="#deca">DECA/ FBLA</a>
       <p></p>
-      <a href="http://www.millcreekhs.com/index.php/students/clubs-activities">Clubs</a>
+      <a href="#ps">Problem Solving</a>
       <p></p>
-      <a href="https://publish.gwinnett.k12.ga.us/gcps/home/gcpslogin" target="_blank">Eclass</a>
-           
+      <a href="#hdw">Hardware</a>
+      <p></p>
+      <a href="#wd">Web Design</a>
+      <p></p>
+      <a href="#cr">Customer Relation ships</a>
+      <p></p>
+      <a href="#ec">Ethics and Cyber Security</a>
+      <p></p>
+      <a href="#es">Earsketch</a>           
+      <p></p>
+      <a href="#gl">Gamelab</a>
+    
+    
+    
+    
     </div>
+    
+    
+    
+    
 
 
 
 <div id="notside">
     <div class="header">
       <img src="https://upload.wikimedia.org/wikipedia/en/d/d5/Millcreekhighschool.jpg" class="imagehawk">
-      <p id="title">Mill Creek High School</p>
+      <p id="title">Digital Tech Fall Performance Final</p>
     </div>
   
+    
     <div class="MissionStatement"> 
-       <p id="missionheader">Our Mission:</p>
-       <p id="MissionStatement">To help the children of Gwinnett County reach their full potential.</p>
-       <img src="http://study.com/cimages/multimages/16/rankings003.jpg" id="aimg">
+       <p id="deca">DECA/FBLA:</p>
+       <p id="MissionStatement">During our first unit in the Intro to Digital Technology Class, we covered two different student organizations that provide oppurtunities to learn about, and to get ahead in the business world, through competitions and more. Information on DECA and FBLA could be used to research what club you would like to join, if what the club entails interests you. It could also be used to help inform others of what the two organizations do, in order to help recruit memebers. Links to appropriate websites below.</p>
+  <ul>
+    <li><a href="http://www.fbla-pbl.org/">FBLA</a></li>
+    <li><a href="https://www.deca.org/">DECA</a></li>
+    <li><a href="http://gadeca.org/">Georgia DECA</a></li>
+    <li><a href="http://georgiafbla.org/">Georgia FBLA</a></li>
+  </ul>
+       <img src="http://pvhsfbladeca.weebly.com/uploads/8/5/9/4/8594713/8494088.png?290" id="aimg">
+    </div>
+    
+      <div class="MissionStatement"> 
+       <p id="ps">Problem Solving:</p>
+       <p id="MissionStatement">During the second unit in the Intro to Digital Technology Class, we covered the problem solving process, and how it relates to the fied of work that we are dealing with in the class. When working with coding, computers, and emerging technology, it is very likely that things will break, or will not work. As this is the case, it is very important that we know what process to follow in order to identify and fix a problem shall one arise. Helpful links will be listed below.</p>
+       
+       <ul>
+    <li><a href="http://asq.org/learn-about-quality/problem-solving/overview/overview.html">Problem Solving Process</a></li>
+    <li><a href="https://www.mindtools.com/pages/article/newTMC_00.htm">Problem Solving Skills</a></li>
+
+  </ul>
+       
+       
+       <img src="http://www.schoolmeet.org/wordpress/wp-content/uploads/2015/04/ProblemRepresentation.png" id="aimg">
+    </div>
+    
+      <div class="MissionStatement"> 
+       <p id="hdw">Hardware:</p>
+       <p id="MissionStatement"> During the third unit in the Intro to Digital Technology Class, we covered most of the different pieces of hardware interact with computers, and how they are used by a person who wants to use the computer. Components discussed included the motherboard, graphics card, CPU, RAM, storage, chassis, peripherals. The information learned in this unit can be used to inform those that want to go into computer sciences, or into hardware development.</p>
+       
+       
+            <ul>
+    <li><a href="https://www.techwalla.com/articles/different-parts-of-the-computer-and-their-function">Parts of a computer</a></li>
+    <li><a href="http://www.rasmussen.edu/degrees/technology/blog/what-can-you-do-with-computer-science-degree/">Computer Science jobs</a></li>
+
+  </ul>
+       
+       <img src="https://images.anandtech.com/doci/12009/nvidia_star_wars_cards-678_678x452.png" id="aimg">
+    
+    
+ 
+    
+    
+    
+    </div>
+    
+      <div class="MissionStatement"> 
+       <p id="wd">Web Design:</p>
+       <p id="MissionStatement">During the fourth unit in the Intro to Digital Technology Class, we covered web design, and how web pages are actually made. In order to learn this, we went through several online courses in order to learn the basics of html and css and how they interact with eachother. The links below will help anyone who wants to follow a web design course and possibly make a career out of the information.</p>
+       
+       
+          
+            <ul>
+    <li><a href="https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/v/making-webpages-intro">Learn HTML</a></li>
+    <li><a href="https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-css/p/css-basics">Learn CSS</a></li>
+
+  </ul>  
+       
+       
+       
+       
+       
+       
+       
+       <img src="http://www.estetica-design-forum.com/wp-content/uploads/2017/07/webdesign-dpc86654229-1200x608.jpg" id="aimg">
+    </div>
+    
+      <div class="MissionStatement"> 
+       <p id="cr">Customer Relationships:</p>
+       <p id="MissionStatement">During the fith unit in the Intro to Digital Technology Class, we covered customer relationships. This unit delt with how to handle communication, along with the "rules of engagement" with unhappy customers. Information learned in this unitis very helpful in the real world for those in web design and computer sciences, as in order to make something, or to write code, the person doing said action must know what the customer is looking for. Links below lead to information on customer relationships.</p>
+        
+        
+                <ul>
+    <li><a href="https://www.entrepreneur.com/encyclopedia/customer-relationships">Customer Relations Information</a></li>
+    <li><a href="https://www.google.com/search?q=customer+relationship+comics&rlz=1C1GGRV_enUS773US773&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiB_eLw3ubXAhVMOSYKHR-wC5cQ_AUICigB&biw=1440&bih=794&safe=active&ssui=on#imgrc=_">Some funny commics on the topic</a></li>
+
+  </ul>   
+        
+        
+        
+        
+        
+        
+        
+        
+        <img src="http://www.rentittoday.com/cmsAdmin/uploads/thumb2/customer_relations_main.jpg" id="aimg">
+    </div>
+    
+      <div class="MissionStatement"> 
+       <p id="ec">Ethics and Cybersecurity:</p>
+       <p id="MissionStatement">In the sixth unit in the Intro to Digital Technology class, we discussed cybersecurity. This unit detailed why and how websites and other digital datases keep their data secure through special security measures. Security measures such as encryption help keep malicious hackers from accessing important data, that could comprimise the livlihood of users.</p>
+     
+                 <ul>
+    <li><a href="https://lifehacker.com/how-to-create-a-strong-password-1797681069">How to make a secure password, and keep your account safe</a></li>
+    <li><a href="https://www.dhs.gov/topic/cybersecurity">More information on cybersecurity</a></li>
+
+  </ul>   
+        
+    
+     
+     
+     <img src="https://www.welivesecurity.com/wp-content/uploads/2017/08/cybersecurity_panel-623x432.jpg" id="aimg">
+    </div>
+    
+      <div class="MissionStatement"> 
+       <p id="es">EarSketch:</p>
+       <p id="MissionStatement">During the seventh unit in the Intro to Digital Technology Class, we used a program developed by researches at Georgia Tech in order to create music. EarSketch is a DAW, or digital audio workstation, but does not work the way most do. Instead of using a drag and drop interface, Earsketch can use either Javascript or Python in order to teacher users how to code, while at the same time having a song to show for it. While earsketch does not get extremely complex, it offers I nice introduction into the world of programming languages. A link to the website along with Georgia Tech's website will be below.</p>
+    
+    
+                <ul>
+    <li><a href="https://earsketch.gatech.edu/landing/#/">Earsketch</a></li>
+    <li><a href="http://www.gatech.edu/">More information on cybersecurity</a></li>
+
+  </ul>    
+ 
+    
+    <img src="https://earsketch.gatech.edu/landing/media/video/poster.png" id="aimg">
+    </div>
+    
+      <div class="MissionStatement"> 
+       <p id="gl">GameLab:</p>
+       <p id="MissionStatement">During the eight unit in the Intro to Digital Technology Class, which we are currently working on we are using a program called GameLab to draw pictures. Users can either use block coding, or actually type out code in order to make shapes, change thier colors, and move them around the drawing board. While we haven't made it to the animation section, that will be a part of what we do. Links to the gamelab site along with another similar websight are below.</p>
+       
+       
+                   <ul>
+    <li><a href="https://studio.code.org/users/sign_in">GameLab</a></li>
+    <li><a href="https://code.org/learn">Hour of Code</a></li>
+
+  </ul>     
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       <img src="https://upload.wikimedia.org/wikipedia/en/3/33/Gamelab_logo.gif" id="aimg">
     </div>
   
-    <div id="awards">
-      <p class="under italic">Our Awards</p>
-      <p> 10/10 IGN</p>
+
     
-    
-    
-    </div>
+</div>
   
   
   
@@ -170,7 +379,7 @@ a:hover {
   
 </div>
  
-</div>  
+ 
 <!-- End your code here -->
-
- <script>// Write JavaScript here </script></body>
+</body>
+</html> 
